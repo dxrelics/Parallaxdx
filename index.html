@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax | DXRELICS</title>
+</head>
+<style>
+    *, html, body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .parallax{
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        width: 100%;
+        height: 100vh;
+    }
+    .intro{
+       background-image: url(gojoturu.jpg);
+    }
+    .content {
+        background-image: url(jjk.jpg);
+    }
+    .footer {
+        background-image: url(sukuna.jpg);
+    }
+    .cta {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .title {
+        font-size: 4em;
+        letter-spacing: 20px;
+        font-family: fantasy;
+        color: whitesmoke;
+    }
+</style>
+<body>
+<div class="parallax intro">
+    <div class="cta">
+        <div class="cta title">DXRELICS</div>
+        </div>
+    </div>
+</div>
+<div class="parallax content"></div>
+<div class="parallax footer"></div>
+</body>
+</html>
